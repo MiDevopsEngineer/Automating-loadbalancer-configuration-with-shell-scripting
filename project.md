@@ -142,7 +142,7 @@ I opened the install.sh file using `sudo vi install.sh` and pasted my script and
 
 
 
-#!/bin/bash
+)  #!/bin/bash
 
 ######################################################################################################################
 ##### This automates the configuration of Nginx to act as a load balancer
@@ -197,7 +197,7 @@ fi
 
 sudo nginx -t
 
-sudo systemctl restart nginx
+sudo systemctl restart nginx )
 
 
 ### Step 5
