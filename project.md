@@ -23,6 +23,7 @@ I opened port 8000 to allow traffic from anywhere using the security group in AW
 I connected to the both webservers via the terminal using the ssh.
 
 webserver1
+
 ![apt update status](./images/3.PNG)
 
 webserver2
@@ -92,6 +93,7 @@ webserver2
 I changed the permissions of the files on both servers to make them executable using the command `sudo chmod +x install.sh`
 
 webserver1
+
 ![apt update status](./images/5.PNG)
 
 webserver2
@@ -211,7 +213,7 @@ Then, I ran the script on both servers using the shell command `./install.sh 3.8
 
 ![apt update status](./images/11a.PNG)
 ![apt update status](./images/11b.PNG)
-![apt update status](./images/aa.PNG.PNG)
+![apt update status](./images/aa.PNG)
 
 ### Step 7
 
@@ -219,7 +221,7 @@ I finally ran the script with this command ` ./nginx.sh PUBLIC_IP Webserver-1 We
 
 ![apt update status](./images/13a.PNG)
 ![apt update status](./images/13e.PNG)
-![apt update status](./images/13f.PNG.PNG)
+![apt update status](./images/13f.PNG)
 
 ### Verifying the setup on the brower
 
@@ -231,7 +233,7 @@ webser2
 ![apt update status](./images/15.PNG)
 
 load balancer
-![apt update status](./images/16a.PNG.PNG)
+![apt update status](./images/16a.PNG)
 
 THANK YOU FOR REVIEWING!
 
