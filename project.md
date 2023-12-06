@@ -221,7 +221,7 @@ I finally ran the script with this command ` ./nginx.sh PUBLIC_IP Webserver-1 We
 
 ![apt update status](./images/13a.PNG)
 ![apt update status](./images/13e.PNG)
-![apt update status](./images/13f.PNG)
+![apt update status](./images/bb.PNG)
 
 ### Verifying the setup on the brower
 
